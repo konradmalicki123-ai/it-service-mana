@@ -1,0 +1,1370 @@
+[
+  {
+    "number": 1,
+    "title": "[lab 1] hosted validation receipt",
+    "state": "closed",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/1"
+  },
+  {
+    "number": 2,
+    "title": "[lab 1] hosted validation receipt retry",
+    "state": "closed",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/2"
+  },
+  {
+    "number": 15,
+    "title": "Lab 1 submission: Adiker/lab1-it-services lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/15"
+  },
+  {
+    "number": 19,
+    "title": "Lab 1 submission: BorysStelmaszyk/itsm-2026 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/19"
+  },
+  {
+    "number": 21,
+    "title": "Lab 1 submission: KapinioxD/Repo lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/21"
+  },
+  {
+    "number": 22,
+    "title": "Lab 1 submission: IwonaSzukala/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/22"
+  },
+  {
+    "number": 25,
+    "title": "Lab 1 submission: Adiker/lab1-it-services lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/25"
+  },
+  {
+    "number": 27,
+    "title": "Lab 1 submission: KapinioxD/Repo lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/27"
+  },
+  {
+    "number": 33,
+    "title": "Lab 1 submission: MichalPacula/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/33"
+  },
+  {
+    "number": 35,
+    "title": "Lab 1 submission: IwonaSzukala/itsm-svcdesk lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/35"
+  },
+  {
+    "number": 37,
+    "title": "Lab 1 submission: TobiaszIzydor/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/37"
+  },
+  {
+    "number": 38,
+    "title": "Lab 1 submission: RaQBiedaQ/pzx112194-LAB1 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/38"
+  },
+  {
+    "number": 40,
+    "title": "Lab 1 submission: IwonaSzukala/itsm-svcdesk lab1/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/40"
+  },
+  {
+    "number": 41,
+    "title": "Lab 1 submission: nikodemkwiecinski/it_services_management lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/41"
+  },
+  {
+    "number": 43,
+    "title": "Lab 1 submission: KapinioxD/Repo lab1/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/43"
+  },
+  {
+    "number": 45,
+    "title": "Lab 1 submission: kamilmatyja/it-service-management lab1/v1",
+    "state": "closed",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/45"
+  },
+  {
+    "number": 46,
+    "title": "Lab 1 submission: Whiperr/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/46"
+  },
+  {
+    "number": 47,
+    "title": "Lab 1 submission: MikolajKocik/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/47"
+  },
+  {
+    "number": 48,
+    "title": "Lab 1 submission: pzx134590/itsm-2026-pzx134590 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/48"
+  },
+  {
+    "number": 50,
+    "title": "Lab 1 submission: s189751/itsm-svcdesk lab1/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/50"
+  },
+  {
+    "number": 54,
+    "title": "Lab 1 submission: s189751/itsm-svcdesk lab1/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/54"
+  },
+  {
+    "number": 56,
+    "title": "Lab 1 submission: Szymonw821/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/56"
+  },
+  {
+    "number": 60,
+    "title": "Lab 1 submission: adikajtek/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/60"
+  },
+  {
+    "number": 61,
+    "title": "Lab 1 submission: Szymonw821/itsm-svcdesk lab1/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/61"
+  },
+  {
+    "number": 62,
+    "title": "Lab 1 submission: psampir/ITSM lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/62"
+  },
+  {
+    "number": 63,
+    "title": "Lab 1 submission: bloczektv/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/63"
+  },
+  {
+    "number": 65,
+    "title": "Lab 1 submission: psebastian11/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/65"
+  },
+  {
+    "number": 66,
+    "title": "Lab 1 submission: adikajtek/itsm-svcdesk lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/66"
+  },
+  {
+    "number": 67,
+    "title": "Lab 1 submission: cresixu/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/67"
+  },
+  {
+    "number": 71,
+    "title": "Lab 1 submission: michalaklukasz/itsm-svcdesk lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/71"
+  },
+  {
+    "number": 72,
+    "title": "Lab 1 submission: kamilmatyja/it-service-management lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/72"
+  },
+  {
+    "number": 74,
+    "title": "Lab 1 submission: IwonaSzukala/itsm-svcdesk lab1/v4",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v4",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/74"
+  },
+  {
+    "number": 75,
+    "title": "Lab 1 submission: Rodger22k/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/75"
+  },
+  {
+    "number": 76,
+    "title": "Lab 1 submission: astach0/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/76"
+  },
+  {
+    "number": 78,
+    "title": "Lab 1 submission: mrzepka43/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/78"
+  },
+  {
+    "number": 79,
+    "title": "Lab 1 submission: Bartosz-Jaroszyk/itsm-2026 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/79"
+  },
+  {
+    "number": 81,
+    "title": "Lab 1 submission: Aaetheriss/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/81"
+  },
+  {
+    "number": 84,
+    "title": "Lab 1 submission: Eljjo/itsm-eljjo lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/84"
+  },
+  {
+    "number": 88,
+    "title": "Lab 1 submission: sn34kyd0g/wsb-itsm lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/88"
+  },
+  {
+    "number": 89,
+    "title": "[lab 2] hosted validation receipt",
+    "state": "closed",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/89"
+  },
+  {
+    "number": 91,
+    "title": "Lab 1 submission: MateuszSlawinski/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/91"
+  },
+  {
+    "number": 92,
+    "title": "Lab 1 submission: michalpotapiuk/itsm-2026-potapiukmichal lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/92"
+  },
+  {
+    "number": 95,
+    "title": "Lab 1 submission: michalpotapiuk/itsm-2026-potapiukmichal lab1/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/95"
+  },
+  {
+    "number": 97,
+    "title": "Lab 1 submission: Jezue/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/97"
+  },
+  {
+    "number": 100,
+    "title": "Lab 1 submission: krystianf3008/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/100"
+  },
+  {
+    "number": 103,
+    "title": "Lab 2 submission: Jezue/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/103"
+  },
+  {
+    "number": 104,
+    "title": "Lab 1 submission: KonradXXX777/itsm-2026-template lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/104"
+  },
+  {
+    "number": 105,
+    "title": "Lab 1 submission: Mateusz-Koczorowski/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/105"
+  },
+  {
+    "number": 109,
+    "title": "Lab 2 submission: krystianf3008/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/109"
+  },
+  {
+    "number": 112,
+    "title": "Lab 2 submission: pzx134590/itsm-2026-pzx134590 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/112"
+  },
+  {
+    "number": 114,
+    "title": "Lab 1 submission: YeL1zaveta/itsm-lab1 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/114"
+  },
+  {
+    "number": 117,
+    "title": "Lab 1 submission%",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/117"
+  },
+  {
+    "number": 120,
+    "title": "Lab 1 submission: Enigma987/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/120"
+  },
+  {
+    "number": 122,
+    "title": "Lab 1 submission: kajotkajot/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/122"
+  },
+  {
+    "number": 124,
+    "title": "Lab 2 submission: RaQBiedaQ/pzx112194-LAB1 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/124"
+  },
+  {
+    "number": 133,
+    "title": "Lab 2 submission: nikodemkwiecinski/it_services_management lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/133"
+  },
+  {
+    "number": 134,
+    "title": "Lab 2 submission: MateuszSlawinski/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/134"
+  },
+  {
+    "number": 135,
+    "title": "Lab 2 submission: witoldszgl/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/135"
+  },
+  {
+    "number": 136,
+    "title": "Lab 2 submission: Whiperr/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/136"
+  },
+  {
+    "number": 137,
+    "title": "Lab 1 submission: kajotkajot/itsm-svcdesk lab1/v2",
+    "state": "closed",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/137"
+  },
+  {
+    "number": 139,
+    "title": "Lab 2 submission: Whiperr/itsm-svcdesk lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/139"
+  },
+  {
+    "number": 141,
+    "title": "Lab 2 submission: Bartosz-Jaroszyk/itsm-2026 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/141"
+  },
+  {
+    "number": 143,
+    "title": "Lab 2 submission: kamilmatyja/it-service-management lab2/v1",
+    "state": "closed",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/143"
+  },
+  {
+    "number": 144,
+    "title": "Lab 2 submission: Whiperr/itsm-svcdesk lab2/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/144"
+  },
+  {
+    "number": 147,
+    "title": "Lab 2 submission: MichalPacula/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/147"
+  },
+  {
+    "number": 148,
+    "title": "Lab 2 submission: BorysStelmaszyk/itsm-2026 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/148"
+  },
+  {
+    "number": 149,
+    "title": "Lab 2 submission: IwonaSzukala/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/149"
+  },
+  {
+    "number": 150,
+    "title": "Lab 1 submission: Piotr148952/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/150"
+  },
+  {
+    "number": 154,
+    "title": "Lab 2 submission: Bartosz-Jaroszyk/itsm-2026 lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/154"
+  },
+  {
+    "number": 155,
+    "title": "Lab 2 submission: Mateusz-Koczorowski/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/155"
+  },
+  {
+    "number": 156,
+    "title": "Lab 2 submission: Rodger22k/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/156"
+  },
+  {
+    "number": 157,
+    "title": "Lab 2 submission: Piotr148952/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/157"
+  },
+  {
+    "number": 158,
+    "title": "Lab 2 submission: MikolajKocik/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/158"
+  },
+  {
+    "number": 159,
+    "title": "Lab 1 submission: Michaeel12/WSB_ISM lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/159"
+  },
+  {
+    "number": 160,
+    "title": "Lab 1 submission: kajotkajot/itsm-svcdesk lab1/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/160"
+  },
+  {
+    "number": 161,
+    "title": "Lab 2 submission: sn34kyd0g/wsb-itsm lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/161"
+  },
+  {
+    "number": 164,
+    "title": "Lab 2 submission: TobiaszIzydor/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/164"
+  },
+  {
+    "number": 165,
+    "title": "Lab 2 submission: kamilmatyja/it-service-management lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/165"
+  },
+  {
+    "number": 166,
+    "title": "Lab 1 submission: szymonsalamacha3-dotcom/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/166"
+  },
+  {
+    "number": 170,
+    "title": "Lab 2 submission: bloczektv/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/170"
+  },
+  {
+    "number": 171,
+    "title": "Lab 2 submission: szymonsalamacha3-dotcom/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/171"
+  },
+  {
+    "number": 173,
+    "title": "Lab 2 submission: michalaklukasz/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/173"
+  },
+  {
+    "number": 175,
+    "title": "Lab 2 submission: Adiker/lab1-it-services lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/175"
+  },
+  {
+    "number": 177,
+    "title": "Lab 1 submission: Piotrek-7/itsm-2026 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/177"
+  },
+  {
+    "number": 179,
+    "title": "Lab 2 submission: Adiker/lab1-it-services lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/179"
+  },
+  {
+    "number": 180,
+    "title": "Lab 2 submission: psampir/ITSM lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/180"
+  },
+  {
+    "number": 181,
+    "title": "Lab 2 submission: psebastian11/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/181"
+  },
+  {
+    "number": 182,
+    "title": "Lab 2 submission: psebastian11/itsm-svcdesk lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/182"
+  },
+  {
+    "number": 183,
+    "title": "Lab 2 submission: astach0/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/183"
+  },
+  {
+    "number": 184,
+    "title": "Lab 1 submission: avvndev/mgr-itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/184"
+  },
+  {
+    "number": 186,
+    "title": "Lab 2 submission: avvndev/mgr-itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/186"
+  },
+  {
+    "number": 189,
+    "title": "Lab 1 submission: s160142/itsm lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/189"
+  },
+  {
+    "number": 191,
+    "title": "Lab 2 submission: Szymonw821/itsm-svcdesk lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/191"
+  },
+  {
+    "number": 192,
+    "title": "Lab 2 submission: michalpotapiuk/itsm-2026-potapiukmichal lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/192"
+  },
+  {
+    "number": 193,
+    "title": "Lab 2 submission: cresixu/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/193"
+  },
+  {
+    "number": 194,
+    "title": "Lab 2 submission: s189751/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/194"
+  },
+  {
+    "number": 197,
+    "title": "Lab 1 submission: WojBra1993/itsm-svcdesk lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/197"
+  },
+  {
+    "number": 199,
+    "title": "Lab 2 submission: YeL1zaveta/itsm-lab1 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/199"
+  },
+  {
+    "number": 201,
+    "title": "Lab 2 submission: WojBra1993/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/201"
+  },
+  {
+    "number": 202,
+    "title": "Lab 1 submission: esdoex/itsm-2026 lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/202"
+  },
+  {
+    "number": 203,
+    "title": "Lab 2 submission: esdoex/itsm-2026 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/203"
+  },
+  {
+    "number": 204,
+    "title": "Lab 2 submission: KonradXXX777/itsm-2026-template lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/204"
+  },
+  {
+    "number": 207,
+    "title": "Lab 2 submission: KonradXXX777/itsm-2026-template lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/207"
+  },
+  {
+    "number": 208,
+    "title": "Lab 2 submission: Piotrek-7/itsm-2026 lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/208"
+  },
+  {
+    "number": 209,
+    "title": "Lab 2 submission: Aaetheriss/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/209"
+  },
+  {
+    "number": 210,
+    "title": "Lab 2 submission: Michaeel12/WSB_ISM lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/210"
+  },
+  {
+    "number": 211,
+    "title": "Lab 2 submission: Michaeel12/WSB_ISM lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/211"
+  },
+  {
+    "number": 212,
+    "title": "Lab 2 submission: Michaeel12/WSB_ISM lab2/v3",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v3",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/212"
+  },
+  {
+    "number": 214,
+    "title": "Lab 1 submission: FreDo-JS/ITSM lab1/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:1",
+      "receipted"
+    ],
+    "tag": "lab1/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/214"
+  },
+  {
+    "number": 215,
+    "title": "Lab 2 submission: FreDo-JS/ITSM lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/215"
+  },
+  {
+    "number": 216,
+    "title": "Lab 3 submission: Jezue/itsm-svcdesk lab3/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:3",
+      "receipted"
+    ],
+    "tag": "lab3/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/216"
+  },
+  {
+    "number": 217,
+    "title": "Lab 2 submission: mrzepka43/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/217"
+  },
+  {
+    "number": 218,
+    "title": "Lab 2 submission: adikajtek/itsm-svcdesk lab2/v1",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v1",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/218"
+  },
+  {
+    "number": 219,
+    "title": "Lab 2 submission: adikajtek/itsm-svcdesk lab2/v2",
+    "state": "open",
+    "labels": [
+      "kind:submission",
+      "lab:2",
+      "receipted"
+    ],
+    "tag": "lab2/v2",
+    "html_url": "https://github.com/swasik/itsm-2026-submissions/issues/219"
+  }
+]

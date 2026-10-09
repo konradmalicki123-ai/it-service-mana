@@ -1,0 +1,9 @@
+<!-- ai-generated: 70% - assistant compared the specification in specs/spec.md with the service that was built -->
+
+# Converge report
+
+The specification under `specs/spec.md` was written before any code, and this note is the comparison of that reading with the service that is now running.
+
+R-01 and R-02 hold: the only interface is JSON over HTTP, and `GET /health` returns status ok and service svcdesk. R-04, R-05 and R-06 are the priority conflict. The build follows the specification's C3 = vip: the matrix runs, a client-supplied priority is ignored, and a VIP at P3 or P4 is raised to P2. R-09 and R-10 are the closure conflict. The build follows C2 = immutable: reopen works from resolved inside seven days and a closed ticket answers 409, so further work after closure is a new ticket with related_to, as R-09 asks. R-13 and R-14 are the clock conflict. The build follows C1 = wallclock: P1 is created_at plus the target, including on Friday evening, and P2 to P4 use the business-hours clock of API.md section 4. The eight published vectors were checked against that clock, including the tie at 16:00 and the weekend in which DST ends (R-17 for the timestamp format, R-12 and R-15 for the dues and the SLA view).
+
+R-07 and R-08 hold as a strict state machine with 409 on any shortcut. R-21 holds: `X-Test-Clock` is per request and a value that does not parse is 422. R-22 and R-23 hold in the compose file: the image is built, dependencies are installed at build time, the data file sits on a named volume, and there is no bind mount. Nothing in the running service contradicts the specification's three resolutions. The laboratory 2 endpoints are an addition, not a change to those resolutions: `POST /dora/metrics` does not read the ticket store, and `GET /dora/ticket-events` only exports instants the ticket record already holds.
