@@ -1,17 +1,24 @@
-# ai-generated: 90% - assistant drafted the HTTP API from API.md; C1=wallclock, C2=immutable, C3=vip match specs/spec.md
-"""svcdesk HTTP API. Laboratory 1 ticketing plus laboratory 2 DORA endpoints."""
+# ai-generated: 90% - assistant drafted the HTTP API from API.md; C1=wallclock, C2=immutable, C3=vip match specs/spec.md; Lab 3 adds /kb/search and the histogram
+"""svcdesk HTTP API. Laboratory 1 ticketing, laboratory 2 DORA, laboratory 3 kb-index."""
 
 from __future__ import annotations
 
+import asyncio
+import json
 import os
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
 import uuid
 from datetime import datetime, timedelta, timezone
 
 from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 
 from svcdesk.clock import due_instants, format_instant, in_business_hours, parse_instant
 from svcdesk.dora import LogError, compute_metrics
+from svcdesk.metrics import METRICS_CONTENT_TYPE, REQUEST_DURATION, render_metrics, route_template
 from svcdesk.store import get_store
 
 # Decision C1. P1 uses the wall clock; P2-P4 use business hours. See DECISIONS.md.
@@ -30,6 +37,17 @@ MATRIX = {
 }
 
 app = FastAPI()
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    """A redirect is not a second search. Surface it as the upstream status."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+# Passing the subclass replaces the default redirect handler, so open() does one GET.
+_KB_OPENER = urllib.request.build_opener(_NoRedirect)
 
 
 def error(status: int, code: str, message: str) -> JSONResponse:
@@ -126,9 +144,66 @@ async def read_body(request: Request) -> dict | JSONResponse:
     return body
 
 
+@app.middleware("http")
+async def record_request_duration(request: Request, call_next):
+    # One observation per request, after routing, so http_route is the template.
+    started = time.perf_counter()
+    status_code = 500
+    try:
+        response = await call_next(request)
+        status_code = response.status_code
+        return response
+    finally:
+        REQUEST_DURATION.labels(
+            http_request_method=request.method,
+            http_route=route_template(request.scope),
+            http_response_status_code=str(status_code),
+        ).observe(time.perf_counter() - started)
+
+
 @app.get("/health")
 async def health() -> dict:
     return {"status": "ok", "service": "svcdesk"}
+
+
+@app.get("/metrics")
+def metrics() -> Response:
+    return Response(content=render_metrics(), media_type=METRICS_CONTENT_TYPE)
+
+
+def kb_index_base() -> str:
+    return os.environ.get("KB_INDEX_URL", "http://kb-index:8080").rstrip("/")
+
+
+def _kb_get(url: str, timeout: float) -> tuple[int, bytes]:
+    # Exactly one request. HTTPError is the upstream's non-200 response, not a retry.
+    request = urllib.request.Request(url, method="GET")
+    try:
+        with _KB_OPENER.open(request, timeout=timeout) as response:
+            return response.status, response.read()
+    except urllib.error.HTTPError as exc:
+        return exc.code, exc.read()
+
+
+@app.get("/kb/search")
+async def kb_search(q: str | None = None):
+    if q is None or not 1 <= len(q) <= 200:
+        return error(422, "validation", "q is required and must be 1..200 characters")
+    # q is URL-encoded. Timeout is 5 s, above the 2 s minimum. No cache and no retry.
+    url = kb_index_base() + "/search?q=" + urllib.parse.quote(q, safe="")
+    try:
+        status, raw = await asyncio.to_thread(_kb_get, url, 5.0)
+    except Exception:
+        return error(502, "upstream_unavailable", "kb-index did not answer")
+    if status != 200:
+        return error(502, "upstream_unavailable", "kb-index did not answer")
+    try:
+        payload = json.loads(raw)
+    except (json.JSONDecodeError, UnicodeError):
+        return error(502, "upstream_unavailable", "kb-index did not answer")
+    if not isinstance(payload, dict) or "hits" not in payload:
+        return error(502, "upstream_unavailable", "kb-index did not answer")
+    return {"query": q, "hits": payload["hits"]}
 
 
 @app.post("/tickets")

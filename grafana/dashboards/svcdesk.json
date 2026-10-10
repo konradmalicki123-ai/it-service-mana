@@ -1,0 +1,53 @@
+{
+  "title": "svcdesk kb-search",
+  "uid": "svcdesk-kb-search",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "5s",
+  "tags": ["svcdesk", "lab3"],
+  "time": {"from": "now-1h", "to": "now"},
+  "templating": {"list": []},
+  "annotations": {"list": []},
+  "panels": [
+    {
+      "id": 1,
+      "type": "timeseries",
+      "title": "GET /kb/search latency p99",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 8, "w": 24, "x": 0, "y": 0},
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "histogram_quantile(0.99, sum by (le) (rate(http_server_request_duration_seconds_bucket{job=\"svcdesk\", http_route=\"/kb/search\"}[5m])))"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "timeseries",
+      "title": "GET /kb/search availability",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8},
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "sum(rate(http_server_request_duration_seconds_count{job=\"svcdesk\", http_route=\"/kb/search\", http_response_status_code!~\"5..\"}[5m])) / sum(rate(http_server_request_duration_seconds_count{job=\"svcdesk\", http_route=\"/kb/search\"}[5m]))"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "timeseries",
+      "title": "GET /kb/search requests per second",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8},
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "sum by (http_response_status_code) (rate(http_server_request_duration_seconds_count{job=\"svcdesk\", http_route=\"/kb/search\"}[5m]))"
+        }
+      ]
+    }
+  ]
+}

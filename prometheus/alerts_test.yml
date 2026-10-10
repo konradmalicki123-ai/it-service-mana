@@ -1,0 +1,83 @@
+# ai-generated: 85% - assistant wrote the promtool cases that pin for and the burn thresholds
+rule_files:
+  - alerts.yml
+evaluation_interval: 1m
+tests:
+  # 20% errors is above 14.4*(1-0.99)=0.144 and below that threshold times 1.5.
+  # The real rule starts firing at 6m; 5m is the evaluation before that.
+  - name: fast-above
+    interval: 1m
+    input_series:
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="502"}'
+        values: "0+120x30"
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="200"}'
+        values: "0+480x30"
+    alert_rule_test:
+      - eval_time: 5m
+        alertname: KbSearchErrorsBurnFast
+        exp_alerts: []
+      - eval_time: 6m
+        alertname: KbSearchErrorsBurnFast
+        exp_alerts:
+          - exp_labels:
+              service: svcdesk
+              slo: availability
+              severity: P1
+
+  # 12% errors is under 0.144 and over 0.144/1.5, so only a lowered threshold fires.
+  - name: fast-below
+    interval: 1m
+    input_series:
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="502"}'
+        values: "0+72x180"
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="200"}'
+        values: "0+528x180"
+    alert_rule_test:
+      - eval_time: 1h
+        alertname: KbSearchErrorsBurnFast
+        exp_alerts: []
+      - eval_time: 2h
+        alertname: KbSearchErrorsBurnFast
+        exp_alerts: []
+      - eval_time: 3h
+        alertname: KbSearchErrorsBurnFast
+        exp_alerts: []
+
+  # 7.5% errors is above 6*(1-0.99)=0.06 and below that threshold times 1.5.
+  - name: slow-above
+    interval: 1m
+    input_series:
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="502"}'
+        values: "0+45x30"
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="200"}'
+        values: "0+555x30"
+    alert_rule_test:
+      - eval_time: 5m
+        alertname: KbSearchErrorsBurnSlow
+        exp_alerts: []
+      - eval_time: 6m
+        alertname: KbSearchErrorsBurnSlow
+        exp_alerts:
+          - exp_labels:
+              service: svcdesk
+              slo: availability
+              severity: P2
+
+  # 5% errors is under 0.06 and over 0.06/1.5.
+  - name: slow-below
+    interval: 1m
+    input_series:
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="502"}'
+        values: "0+30x360"
+      - series: 'http_server_request_duration_seconds_count{job="svcdesk",instance="svcdesk:8080",http_request_method="GET",http_route="/kb/search",http_response_status_code="200"}'
+        values: "0+570x360"
+    alert_rule_test:
+      - eval_time: 2h
+        alertname: KbSearchErrorsBurnSlow
+        exp_alerts: []
+      - eval_time: 4h
+        alertname: KbSearchErrorsBurnSlow
+        exp_alerts: []
+      - eval_time: 6h
+        alertname: KbSearchErrorsBurnSlow
+        exp_alerts: []

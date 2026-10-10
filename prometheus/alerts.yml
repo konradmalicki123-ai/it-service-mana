@@ -1,0 +1,43 @@
+# ai-generated: 85% - assistant wrote the multi-window burn alerts from the SLO in slo.md
+groups:
+  - name: svcdesk-kb-search
+    rules:
+      # Fast burn: 14.4 x the 1% availability budget, both the 1h and the 5m window.
+      - alert: KbSearchErrorsBurnFast
+        expr: |
+          (
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search", http_response_status_code=~"5.."}[1h]))
+            /
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search"}[1h]))
+          ) > (14.4 * (1 - 0.99))
+          and
+          (
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search", http_response_status_code=~"5.."}[5m]))
+            /
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search"}[5m]))
+          ) > (14.4 * (1 - 0.99))
+        for: 5m
+        labels:
+          service: svcdesk
+          slo: availability
+          severity: P1
+
+      # Slow burn: 6 x the same budget, both the 6h and the 30m window.
+      - alert: KbSearchErrorsBurnSlow
+        expr: |
+          (
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search", http_response_status_code=~"5.."}[6h]))
+            /
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search"}[6h]))
+          ) > (6 * (1 - 0.99))
+          and
+          (
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search", http_response_status_code=~"5.."}[30m]))
+            /
+            sum(rate(http_server_request_duration_seconds_count{job="svcdesk", http_route="/kb/search"}[30m]))
+          ) > (6 * (1 - 0.99))
+        for: 5m
+        labels:
+          service: svcdesk
+          slo: availability
+          severity: P2
