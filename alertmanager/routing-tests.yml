@@ -1,0 +1,17 @@
+# ai-generated: 25% - the equal-labels pair was drafted with an assistant from the inhibit rule; the route cases are the alerts above
+routes:
+  - labels: {alertname: CheckoutErrorRate, service: checkout, severity: P1}
+    receivers: [pager]
+  - labels: {alertname: PaymentChargeErrors, service: payment, severity: P2}
+    receivers: [chat]
+  - labels: {alertname: KbSearchErrorsBurnFast, service: svcdesk, slo: availability, severity: P1}
+    receivers: [pager]
+  - labels: {alertname: KbSearchErrorsBurnSlow, service: svcdesk, slo: availability, severity: P2}
+    receivers: [chat]
+inhibitions:
+  - source: {alertname: CheckoutErrorRate, service: checkout, severity: P1, cluster: shop}
+    target: {alertname: PaymentChargeErrors, service: payment, severity: P2, cluster: shop}
+    inhibited: true
+  - source: {alertname: CheckoutErrorRate, service: checkout, severity: P1, cluster: shop}
+    target: {alertname: PaymentChargeErrors, service: payment, severity: P2, cluster: other}
+    inhibited: false

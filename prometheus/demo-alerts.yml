@@ -1,0 +1,48 @@
+# ai-generated: 25% - symptom thresholds and the payment cause alert were drafted with an assistant, then checked against the recording
+# Symptom alerts for the OpenTelemetry Demo shop. Page on what checkout's callers feel.
+# Server spans only: the load generator's client calls fail on a healthy shop.
+# Windows are 5 minutes because span metrics arrive once a minute.
+# Checkout errors and checkout latency are both P1 and sit in one group, so a draw
+# whose only checkout symptom is latency still pages, and the two compete on severity.
+groups:
+  - name: shop-symptoms
+    rules:
+      - alert: CheckoutErrorRate
+        expr: |
+          sum(rate(traces_span_metrics_calls_total{service_name="checkout",span_kind="SPAN_KIND_SERVER",status_code="STATUS_CODE_ERROR"}[5m]))
+          /
+          sum(rate(traces_span_metrics_calls_total{service_name="checkout",span_kind="SPAN_KIND_SERVER"}[5m]))
+          > 0.05
+        for: 1m
+        labels:
+          service: checkout
+          severity: P1
+        annotations:
+          summary: "More than 5% of checkout server spans are failing"
+
+      - alert: CheckoutLatencyHigh
+        expr: |
+          histogram_quantile(0.99,
+            sum by (le) (
+              rate(traces_span_metrics_duration_milliseconds_bucket{service_name="checkout",span_kind="SPAN_KIND_SERVER"}[5m])
+            )
+          ) > 2000
+        for: 1m
+        labels:
+          service: checkout
+          severity: P1
+        annotations:
+          summary: "Checkout server p99 latency is above 2 seconds"
+
+      - alert: PaymentChargeErrors
+        expr: |
+          sum(rate(traces_span_metrics_calls_total{service_name="payment",span_name="charge",status_code="STATUS_CODE_ERROR"}[5m]))
+          /
+          sum(rate(traces_span_metrics_calls_total{service_name="payment",span_name="charge"}[5m]))
+          > 0.05
+        for: 1m
+        labels:
+          service: payment
+          severity: P2
+        annotations:
+          summary: "More than 5% of payment charge spans are failing"
